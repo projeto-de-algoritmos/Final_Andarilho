@@ -14,13 +14,13 @@ Temas:
 
 # NomedoProjeto
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: Final<br>
+**Conteúdo da Disciplina**: Final<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0111836  |  Luan Vasco Cavalcante |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
