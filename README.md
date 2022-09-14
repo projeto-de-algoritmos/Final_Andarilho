@@ -1,27 +1,15 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
+# Final_Andarilho
  
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
 
-# Andarilho Mochileiro Inteligente
-
-**Número da Lista**: Final<br>
-**Conteúdo da Disciplina**: Final<br>
+### Número da Lista: Ultima Lista.<br>
+### Conteúdo da Disciplina: Trabalho Final.<br>
+<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 19/0111836  |  Luan Vasco Cavalcante |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+Aluno   | Matrícula
+--------- | ------
+Luan Vasco Cavalcante | 190111836
+Sávio Cunha de Carvalho | 180130889
 
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
