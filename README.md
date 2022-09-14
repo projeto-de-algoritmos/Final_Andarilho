@@ -1,8 +1,8 @@
 # Final_Andarilho
  
 
-### Número da Lista: Ultima Lista.<br>
-### Conteúdo da Disciplina: Trabalho Final.<br>
+### Número da Lista: Ultima Lista. <br>
+### Conteúdo da Disciplina: Trabalho Final. <br>
 <br>
 
 ## Alunos
