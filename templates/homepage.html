@@ -19,12 +19,35 @@
     
     <div class= "box">
     <form action = "/menor_distancia" method="POST">
-        <input type="text" placeholder="Cidade origem" name="origem">
-        <input type="text" placeholder="Cidade destino" name="destino">
+        <select name="origem">
+            {% for i in range(len) %}
+                <option value="{{i}}">{{lista_cidades[i]}}</option>
+            {% endfor %}
+        </select>
+
+        <select name="destino">
+            {% for i in range(len) %}
+                <option value="{{i}}">{{lista_cidades[i]}}</option>
+            {% endfor %}
+        </select>
+        
         <button type="submit">Submit</button>
         
     </form>
     </div>
 
+    <div class="resp">
+        {% if menor_caminho %}
+            <h2>Caminho mais curto :</h2>
+            {% for cidade in menor_caminho %}
+                <p>{{cidade}}</p>
+            {% endfor %}
+        {% endif %}
+
+        {% if distancia %}
+            <h1>{{distancia}} km de distância.</h1>
+        {% endif %}
+
+    </div>
 </body>
 </html>

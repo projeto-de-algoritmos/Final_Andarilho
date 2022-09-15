@@ -27,6 +27,11 @@ cidades = {'Porto Velho':[
                 ('Teresina',446),
                 ('Palmas',964),
             ],
+            'Teresina':[
+                ('São Luís',446),
+                ('Palmas',1401),
+                ('Fortaleza',634)
+            ],
             'Palmas':[
                 ('Belém',973),
                 ('Teresina',1401),
@@ -168,7 +173,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template("homepage.html")
+    return render_template("homepage.html",lista_cidades = capitais_lista,len = len(capitais_lista))
 
 def shortest_path(graph,start,end):
     bala = graph.find_shortest_path(start,end)
@@ -178,14 +183,20 @@ def shortest_path(graph,start,end):
 def menor_distancia():
     origem = request.form.get("origem")
     destino = request.form.get("destino")
+    print("-"*50)
+    print(origem,destino)
+    print("-"*50)
+
+    origem = capitais_lista[int(origem)]
+    destino = capitais_lista[int(destino)]
 
     graph = GraphModel(cidades)
 
     shortest = shortest_path(graph,origem,destino)
 
     print(shortest)
+    print(type(shortest))
+    print(shortest[0])
 
+    return render_template("homepage.html",lista_cidades = capitais_lista,len = len(capitais_lista),menor_caminho = shortest[0],distancia = shortest[1])
 
-    print(origem)
-
-    return "sou fashion"
