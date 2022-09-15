@@ -15,10 +15,14 @@ Sávio Cunha de Carvalho | 180130889
 Descreva os objetivos do seu projeto e como ele funciona. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Screenshots do projeto em funcionamento.
+
+![](/media/img1.png)
+![](/media/img2.png)
+![](/media/img3.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
+**Linguagem**: Python<br>
 **Framework**: (caso exista)<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
